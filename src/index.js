@@ -12,9 +12,9 @@ const { startCronJobs } = require('./services/cron.service');
 
 const app = express();
 
-// CORS
+// CORS - allow all origins
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  origin: true,
   credentials: true,
 }));
 
