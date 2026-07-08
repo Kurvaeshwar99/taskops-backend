@@ -238,3 +238,4 @@ Authorization: Bearer <token>
 GET http://localhost:3000/health
 → { "status": "ok", "timestamp": "..." }
 ```
+
